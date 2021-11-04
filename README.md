@@ -1,3 +1,3 @@
 # React router intro
 
-1. Yes
+1. npm i bootstrap@^4.6
