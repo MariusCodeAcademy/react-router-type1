@@ -5,6 +5,7 @@ import ContactPage from './components/pages/Contact';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './components/pages/HomePage';
 import PostsPage from './components/pages/Posts';
+import TodoListPage from './components/pages/TodoListPage';
 // create simple about component
 // create simple contact us component
 
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path='/posts'>
             <PostsPage />
+          </Route>
+          <Route path='/todos'>
+            <TodoListPage />
           </Route>
           <Route path='/'>
             <HomePage />

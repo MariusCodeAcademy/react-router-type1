@@ -31,6 +31,9 @@ export default function Navbar() {
             <NavLink className='nav-link' to='/posts'>
               Posts
             </NavLink>
+            <NavLink className='nav-link' to='/todos'>
+              Todos Page
+            </NavLink>
           </div>
         </div>
       </div>
